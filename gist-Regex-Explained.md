@@ -1,6 +1,8 @@
 # Regex Explained
 
-What is Regex? Regex stands for Regular Expression and are patterns used to match character combinations in strings.  
+## What is Regex? 
+
+### Regex stands for Regular Expression and are patterns used to match character combinations in strings.  
 
 ## Summary
 
@@ -9,11 +11,10 @@ In the following information, we will break down the regex code for passwords.
 
 The password must match:
 
-Exactly 8 characters,
-must contain at least 1 uppercase letter,
-must contain at least 1 lowercase letter,
-and 1 number
-Can contain any of this special characters $ % # * & - .
+* Exactly 8 characters,
+* must contain at least 1 uppercase letter,
+* must contain at least 1 lowercase letter, and 1 number
+* Can contain any of this special characters $ % # * & - .
 
 Let's use the following password in our exmaple: 
 
@@ -36,18 +37,23 @@ Let's use the following password in our exmaple:
 ### Anchors
 
 ![Password Image Image](./images/Anchors.png)
+![Password Image Image](./images/anchor-example.png)
 
 ### Quantifiers
 
 ![Quantifiers Image](./images/Quantifiers.png)
+![Quantifiers Image](./images/quatifier-example.png)
+
 
 ### Character Classes
 
 ![Character Classes Image](./images/character-classes.png)
+![Character Classes Image](./images/character-classes-example.png)
 
 ### Grouping and Capturing
 
 ![Grouping-Capturing Image](./images/grouping-capturing.png)
+![Grouping-Capturing Image](./images/grouping-example.png)
 
 ### Back-references
 
@@ -56,6 +62,7 @@ Let's use the following password in our exmaple:
 ### Look-ahead and Look-behind
 
 ![Look ahead and Behind Image](./images/Look-ahead-behind.png)
+![Look ahead and Behind Image](./images/Look-ahead-behind-example.png)
 
 ## Author
 
